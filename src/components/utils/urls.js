@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000/"
+const BASE_URL = "https://danthecm.pythonanywhere.com/"
 
 export const BLOG_URL = BASE_URL + "blogs/"
 export const BLOG_COMMENT = BASE_URL + "blog-comments/"
