@@ -1,12 +1,12 @@
-import { commentAction, textAction } from "./actions";
+import {  textAction } from "./actions";
 
 const textState = {
     textValue: "Started"
 }
 
-const commentTriggerState = {
-  commentTrigger: true,
-}
+// const commentTriggerState = {
+//   commentTrigger: true,
+// }
 
 const textReducer = (state, action) => {
     if (action.type === textAction) {
@@ -18,13 +18,13 @@ const textReducer = (state, action) => {
     return state;
   };
 
-const commentTriggerReducer = (state, action) => {
-  if (action.type === commentAction) {
-    return {
-      ...state,
-      commentTrigger: false,
-    }
-  }
-}
+// const commentTriggerReducer = (state, action) => {
+//   if (action.type === commentAction) {
+//     return {
+//       ...state,
+//       commentTrigger: false,
+//     }
+//   }
+// }
 
 export {textState, textReducer}
