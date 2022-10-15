@@ -1,6 +1,6 @@
 .mainContent {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1.5fr;
     padding: 2rem 7em;
     column-gap: 5rem;
 }
