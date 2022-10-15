@@ -13,7 +13,7 @@ footer > p {
 }
 .mainFooter {
     display: grid;
-    grid-template-columns: 1fr .5fr 1fr 5fr;
+    grid-template-columns: 2fr 1fr 1fr 5fr;
     padding: 5rem 4rem;
     column-gap: 110px;
 }
