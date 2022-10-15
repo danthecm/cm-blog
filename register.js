@@ -100,7 +100,6 @@ form.addEventListener("submit", (e) => {
         return response.json();
       })
       .then((data) => {
-        console.log(data)
 
         if (data.username) {
             errorField.classList.remove("invisible")

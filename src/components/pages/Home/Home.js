@@ -6,8 +6,6 @@ import "../../common/Navbar.css";
 import AuthorCard from "../../common/AuthorCard";
 
 const Home = (props) => {
-  console.log("welcome to home page");
-
   return (
     <>
       <Header />

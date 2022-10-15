@@ -5,7 +5,6 @@ import moment from "moment";
 const AuthorInfo = (props) => {
   const text = props.content
   const readingTime = (text) => {
-      console.log("The text is ", text)
       const wpm = 225;
       const words = text.trim().split(/\s+/).length;
       return Math.ceil(words / wpm);
